@@ -1,0 +1,27 @@
+\hypertarget{main_8cpp}{}\section{Referencia del Archivo main.\+cpp}
+\label{main_8cpp}\index{main.\+cpp@{main.\+cpp}}
+
+
+implementacion del \hyperlink{main_8cpp}{main.\+cpp} con el uso de O\+Pen\+Gl en C++.  
+
+
+{\ttfamily \#include \char`\"{}Turtle.\+h\char`\"{}}\newline
+Dependencia gráfica adjunta para main.\+cpp\+:
+% FIG 0
+\subsection*{Funciones}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{main_8cpp_a3c04138a5bfe5d72780bb7e82a18e627}\label{main_8cpp_a3c04138a5bfe5d72780bb7e82a18e627}} 
+int {\bfseries main} (int argc, char $\ast$$\ast$argv)
+\end{DoxyCompactItemize}
+
+
+\subsection{Descripción detallada}
+implementacion del \hyperlink{main_8cpp}{main.\+cpp} con el uso de O\+Pen\+Gl en C++. 
+
+\begin{DoxyAuthor}{Autor}
+i\+Mawe 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Versión}
+Revision 1.\+1 
+\end{DoxyVersion}

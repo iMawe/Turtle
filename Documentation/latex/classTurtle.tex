@@ -1,0 +1,114 @@
+\hypertarget{classTurtle}{}\section{Referencia de la Clase Turtle}
+\label{classTurtle}\index{Turtle@{Turtle}}
+
+
+La clase tortuga contiene todos los metodos y funciones de \char`\"{}turtle\char`\"{} de Python  Una numeracion general sobre los metodos mas importantes de \char`\"{}turle\char`\"{}.  
+
+
+
+
+{\ttfamily \#include $<$Turtle.\+h$>$}
+
+\subsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classTurtle_a1bb2294aefb24529b2d35a84c2339027}{Turtle} (int w1=500, int h2=500)
+\item 
+void \hyperlink{classTurtle_acf384dcc28f8f002c0134a9a13567d36}{forward} (int di, float de=0)
+\item 
+void \hyperlink{classTurtle_ad4f1cfec231a2d91c529d20c2331168b}{set\+\_\+color} (int R, int G, int B)
+\item 
+void \hyperlink{classTurtle_a40367ef16bd84c7d382992b8e6d3a9fc}{penup} ()
+\item 
+void \hyperlink{classTurtle_aabe573f505a789dfe84fc2219ec0cb10}{pendow} ()
+\item 
+void \hyperlink{classTurtle_ac77d9bd08853112cccfc27962fef4759}{move} (int x, int y)
+\item 
+void \hyperlink{classTurtle_ae62d0d6d90add2c86baa14ae01cdbe4a}{display} (int argc, char $\ast$$\ast$argv)
+\end{DoxyCompactItemize}
+
+
+\subsection{Descripción detallada}
+La clase tortuga contiene todos los metodos y funciones de \char`\"{}turtle\char`\"{} de Python  Una numeracion general sobre los metodos mas importantes de \char`\"{}turle\char`\"{}. 
+
+\subsection{Documentación del constructor y destructor}
+\mbox{\Hypertarget{classTurtle_a1bb2294aefb24529b2d35a84c2339027}\label{classTurtle_a1bb2294aefb24529b2d35a84c2339027}} 
+\index{Turtle@{Turtle}!Turtle@{Turtle}}
+\index{Turtle@{Turtle}!Turtle@{Turtle}}
+\subsubsection{\texorpdfstring{Turtle()}{Turtle()}}
+{\footnotesize\ttfamily Turtle\+::\+Turtle (\begin{DoxyParamCaption}\item[{int}]{w1 = {\ttfamily 500},  }\item[{int}]{h1 = {\ttfamily 500} }\end{DoxyParamCaption})}
+
+Constructor con tamano por defecto. 
+\begin{DoxyParams}{Parámetros}
+{\em w1,h2} & coordinan el tamano del plano.\\
+\hline
+\end{DoxyParams}
+Constructor. se establecen todos los datos miembro de la tortuga. 
+
+\subsection{Documentación de las funciones miembro}
+\mbox{\Hypertarget{classTurtle_ae62d0d6d90add2c86baa14ae01cdbe4a}\label{classTurtle_ae62d0d6d90add2c86baa14ae01cdbe4a}} 
+\index{Turtle@{Turtle}!display@{display}}
+\index{display@{display}!Turtle@{Turtle}}
+\subsubsection{\texorpdfstring{display()}{display()}}
+{\footnotesize\ttfamily void Turtle\+::display (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{char $\ast$$\ast$}]{argv }\end{DoxyParamCaption})}
+
+mostrar ventana. 
+\begin{DoxyParams}{Parámetros}
+{\em argc,argv} & es necesario para la funcion glut\+Init.\\
+\hline
+\end{DoxyParams}
+Funcion para mostrar. se utilizan distintas funciones del Open\+GL para poder visualizar todo en uan ventana. \mbox{\Hypertarget{classTurtle_acf384dcc28f8f002c0134a9a13567d36}\label{classTurtle_acf384dcc28f8f002c0134a9a13567d36}} 
+\index{Turtle@{Turtle}!forward@{forward}}
+\index{forward@{forward}!Turtle@{Turtle}}
+\subsubsection{\texorpdfstring{forward()}{forward()}}
+{\footnotesize\ttfamily void Turtle\+::forward (\begin{DoxyParamCaption}\item[{int}]{di,  }\item[{float}]{de = {\ttfamily 0} }\end{DoxyParamCaption})}
+
+Funcion para avanzar. 
+\begin{DoxyParams}{Parámetros}
+{\em di,de} & tamano de la linea por dibujar y de en los que va a rotar la tortuga.\\
+\hline
+\end{DoxyParams}
+Funcion para avanzar. se reciben grados los cuales se aplican a la rotacion, tambien se recibe la distancia que va a recorrer. \mbox{\Hypertarget{classTurtle_ac77d9bd08853112cccfc27962fef4759}\label{classTurtle_ac77d9bd08853112cccfc27962fef4759}} 
+\index{Turtle@{Turtle}!move@{move}}
+\index{move@{move}!Turtle@{Turtle}}
+\subsubsection{\texorpdfstring{move()}{move()}}
+{\footnotesize\ttfamily void Turtle\+::move (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+mueve la tortuga hace la coordenada (x, y). 
+\begin{DoxyParams}{Parámetros}
+{\em x,y} & funcionan como coordenadas.\\
+\hline
+\end{DoxyParams}
+Funcion para mover la tortuga. mueve la tortuga sin pintar al punto de coordenadas indicado por el usuario. \mbox{\Hypertarget{classTurtle_aabe573f505a789dfe84fc2219ec0cb10}\label{classTurtle_aabe573f505a789dfe84fc2219ec0cb10}} 
+\index{Turtle@{Turtle}!pendow@{pendow}}
+\index{pendow@{pendow}!Turtle@{Turtle}}
+\subsubsection{\texorpdfstring{pendow()}{pendow()}}
+{\footnotesize\ttfamily void Turtle\+::pendow (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+la tortuga vuelve a pintar.
+
+Funcion para pintar. Le da color al trazo que se va a realizar. \mbox{\Hypertarget{classTurtle_a40367ef16bd84c7d382992b8e6d3a9fc}\label{classTurtle_a40367ef16bd84c7d382992b8e6d3a9fc}} 
+\index{Turtle@{Turtle}!penup@{penup}}
+\index{penup@{penup}!Turtle@{Turtle}}
+\subsubsection{\texorpdfstring{penup()}{penup()}}
+{\footnotesize\ttfamily void Turtle\+::penup (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+la tortuga deja de pintar.
+
+Funcion para no pintar. le damos color 0, lo cual causa que no pinte en lo absoluto al moverse. \mbox{\Hypertarget{classTurtle_ad4f1cfec231a2d91c529d20c2331168b}\label{classTurtle_ad4f1cfec231a2d91c529d20c2331168b}} 
+\index{Turtle@{Turtle}!set\+\_\+color@{set\+\_\+color}}
+\index{set\+\_\+color@{set\+\_\+color}!Turtle@{Turtle}}
+\subsubsection{\texorpdfstring{set\+\_\+color()}{set\_color()}}
+{\footnotesize\ttfamily void Turtle\+::set\+\_\+color (\begin{DoxyParamCaption}\item[{int}]{R,  }\item[{int}]{G,  }\item[{int}]{B }\end{DoxyParamCaption})}
+
+Funcion que da color a la tortuga. 
+\begin{DoxyParams}{Parámetros}
+{\em R,G,B} & inicializan el color de tipo R\+GB.\\
+\hline
+\end{DoxyParams}
+Funcion para elegir color. permite elegir el color con el que se va a realizar el trazo. 
+
+La documentación para esta clase fue generada a partir de los siguientes ficheros\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{Turtle_8h}{Turtle.\+h}\item 
+\hyperlink{Turtle_8cpp}{Turtle.\+cpp}\end{DoxyCompactItemize}
