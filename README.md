@@ -8,7 +8,7 @@
   - sudo apt-get install freeglut3-dev
 - download the files
 - compile with the comand:
-  - g++ Turtle.cpp -o gl -lGL -lGLU -lglut
+  - g++ Turtle.cpp main.cpp -o gl -lGL -lGLU -lglut
 - Open this file:
   - ./gl
 
